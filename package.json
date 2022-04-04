@@ -23,14 +23,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/broliver12/wiggle_world_sol.git"
+    "url": "git+https://github.com/broliver12/solidity_starter.git"
   },
   "author": "Oliver Straszynski",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/broliver12/wiggle_world_sol/issues"
+    "url": "https://github.com/broliver12/solidity_starter/issues"
   },
-  "homepage": "https://github.com/broliver12/wiggle_world_sol/blob/main/README.md",
+  "homepage": "https://github.com/broliver12/solidity_starter/blob/main/README.md",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",
     "@nomiclabs/hardhat-etherscan": "^2.1.8",

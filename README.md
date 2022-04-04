@@ -55,6 +55,8 @@ Library of ready-to-deploy contracts, and extensible features that implement com
 Refer to this example `./env/secrets.json` to see the expected format for each type of key:
 
     {
+      "METAMASK_WALLET_PRIVATE_KEY": "5hfjs73fj392jnr238fn0kdl5hfjs73fj392jnr238fn0kdl5hfjs73fj392jnr238fn0kdl",
+
       "MUMBAI_NODE_URL": "https://speedy-nodes-nyc.moralis.io/5hfjs73fj392jnr238fn0kdl/polygon/mumbai",
       "MATIC_NODE_URL": "https://speedy-nodes-nyc.moralis.io/5hfjs73fj392jnr238fn0kdl/polygon/mainnet",
       "ROPSTEN_NODE_URL": "https://speedy-nodes-nyc.moralis.io/5hfjs73fj392jnr238fn0kdl/eth/ropsten",
@@ -64,9 +66,6 @@ Refer to this example `./env/secrets.json` to see the expected format for each t
       "BSC_TEST_NODE_URL": "https://speedy-nodes-nyc.moralis.io/5hfjs73fj392jnr238fn0kdl/bsc/testnet",
       "AVALANCHE_MAIN_NODE_URL": "https://speedy-nodes-nyc.moralis.io/5hfjs73fj392jnr238fn0kdl/avalanche/mainnet",
       "AVALANCHE_TEST_NODE_URL": "https://speedy-nodes-nyc.moralis.io/5hfjs73fj392jnr238fn0kdl/avalanche/testnet",
-
-      "METAMASK_WALLET_PRIVATE_KEY": "5hfjs73fj392jnr238fn0kdl5hfjs73fj392jnr238fn0kdl5hfjs73fj392jnr238fn0kdl",
-      "METAMASK_WALLET_ADDRESS": "0x7HME93jdus8JWb29mPE3n4EUR8se08Jsa8K9",
 
       "ETHERSCAN_API_KEY": "7HME93jdus8JWb29mPE3n4EUR8se08Jsa8K9",
       "BSCSCAN_API_KEY": "7HME93jdus8JWb29mPE3n4EUR8se08Jsa8K9",
@@ -96,6 +95,7 @@ Refer to this example `./env/secrets.json` to see the expected format for each t
 ## Tech Stack
 #### Code
 - [OpenZeppelin/Contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) :  Open source smart contracts
+- [ERC721A](https://www.erc721a.org/) : Revolutionary Contract developer by Chiru Labs
 - [node.js](http://nodejs.org) : Javascript Runtime
 - [Hardhat](https://hardhat.org/getting-started/) : Solidity Compiler and Development Environment
 - [ethers.js](https://docs.ethers.io/v5/) : Web3 wrapper + Blockchain interaction API

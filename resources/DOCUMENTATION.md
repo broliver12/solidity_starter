@@ -1,9 +1,3 @@
-//tests
-
-OwnableERC20
-ERC721 _receiver
-ERC721 evolve stakeable whitelist unlimited unique
-
 <img src="./solidity_starter_documentation_banner.png"/>
 
 # Contents:
@@ -180,5 +174,5 @@ module.exports = {
 
 If an optimized contract already exists that matches your desired functionality, you can deploy it directly.
 
-Otherwise, you should first extend and combine contract to create the functionality you want.
-Add any custom logic, flatten your working (and tested) contract, save to a new file, and optimize!
+Otherwise, you should first extend, cherry pick, and combine contracts to create the functionality you want.
+Add any custom logic, and optimize!
